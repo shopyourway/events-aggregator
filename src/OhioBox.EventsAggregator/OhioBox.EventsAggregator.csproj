@@ -5,7 +5,7 @@
     <PackageId>OhioBox.EventsAggregator</PackageId>
     <BuildNumber>0</BuildNumber>
     <PackageVersionSuffix>-dev</PackageVersionSuffix>
-    <AssemblyVersion>2.0.$(BuildNumber)</AssemblyVersion>
+    <AssemblyVersion>2.1.$(BuildNumber)</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <PackageVersion>$(AssemblyVersion)$(PackageVersionSuffix)</PackageVersion>
     <Authors>Sears Israel</Authors>
