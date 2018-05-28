@@ -4,9 +4,6 @@
     <TargetFramework>net45</TargetFramework>
     <PackageId>OhioBox.EventsAggregator.Tests</PackageId>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="Microsoft.CSharp" />

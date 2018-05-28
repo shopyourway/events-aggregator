@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OhioBox.EventsAggregator.Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OhioBox.EventsAggregator", "OhioBox.EventsAggregator\OhioBox.EventsAggregator.csproj", "{154DEFA7-5C09-45BA-ABFA-AC04F2D356EB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E06E6322-EAD2-44A1-94D6-9E0834649C1C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

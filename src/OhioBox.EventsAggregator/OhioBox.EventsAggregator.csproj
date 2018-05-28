@@ -13,7 +13,6 @@
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Copyright>© 2014 Sears Israel All rights reserved</Copyright>
     <PackageTags>events events-aggregator</PackageTags>
-    <RestoreConfigFile>..\.nuget\NuGet.config</RestoreConfigFile>
   </PropertyGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net45'">
     <Reference Include="System" />
