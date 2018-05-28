@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.4;net45</TargetFrameworks>
+    <PackageId>OhioBox.EventsAggregator</PackageId>
+    <BuildNumber>0</BuildNumber>
+    <PackageVersionSuffix>-dev</PackageVersionSuffix>
+    <AssemblyVersion>2.0.$(BuildNumber)</AssemblyVersion>
+    <FileVersion>$(AssemblyVersion)</FileVersion>
+    <PackageVersion>$(AssemblyVersion)$(PackageVersionSuffix)</PackageVersion>
+    <Authors>Sears Israel</Authors>
+    <Description>Events pub-sub mechanism</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Copyright>© 2014 Sears Israel All rights reserved</Copyright>
+    <PackageTags>events events-aggregator</PackageTags>
+    <RestoreConfigFile>..\.nuget\NuGet.config</RestoreConfigFile>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'net45'">
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.4'">
+    <PackageReference Include="System.Runtime" Version="4.3.0" />
+  </ItemGroup>
+</Project>
